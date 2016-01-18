@@ -1,25 +1,53 @@
-## Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Introduction
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+PHPHub++ is a `Forum project` written in `Laravel4.2`, and it is also based on PHPHub[PHP & Laravel China community](http://www.phphub.org).
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+ If you have any questions please don't hesitate to ask them in an issue or email me at frank@codeniro.com.
 
-## Official Documentation
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+### Features
+* Regular user signup and login functionality.
+* Password recovery.
+![](https://cloud.githubusercontent.com/assets/8538930/12395063/6029db62-bdf7-11e5-9e6d-4695452e8d96.jpg)
 
-### Contributing To Laravel
+* Custom forum feed based on three favourite categories selected on signup.
+![](https://cloud.githubusercontent.com/assets/8538930/12395127/ccc7ed86-bdf7-11e5-8c50-9236679c3399.jpg)
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+* One to many messaging system available.
+* Please note that you can only message users who follow you.
+![](https://cloud.githubusercontent.com/assets/8538930/12395169/0e63c0f8-bdf8-11e5-8c25-f27a7abf6494.jpg)
 
-### License
+* User reputation based profile.
+* Number of followers | Number of Posts | Display followers.
+![](https://cloud.githubusercontent.com/assets/8538930/12395202/41549e60-bdf8-11e5-9a63-fd2c3c264304.jpg)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+## Requirements and Environment
+
+* PHP 5.4+
+* Laravel 4.2+
+
+
+[Step by Step Guide to Setting up the PHPHub Development Environment](https://github.com/summerblue/phphub/wiki/Step-by-Step-Guide-to-Setting-up-the-PHPHub-Development-Environment)
+
+## Thanks 
+
+* [Laravel.io Project](https://github.com/LaravelIO/laravel.io) 
+* [Twitter bootstrap](http://getbootstrap.com/)
+* [Laravel4](http://laravel.com/)
+
+
+## Contributors
+
+[On the Project Contributors Page](https://github.com/frankdupree/phphub/graphs/contributors)
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## License
+
+Copyright (c) 2016 PHPHub++
+
+The MIT License (MIT). Please see [Opensource MIT License](http://www.opensource.org/licenses/MIT) for more information.
